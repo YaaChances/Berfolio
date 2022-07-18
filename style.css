@@ -1,0 +1,288 @@
+body {
+    background-color: #aaebeb;
+    color: #40514E;
+    font-family: 'Outfit', sans-serif;
+}
+
+/*.navbar {
+    background-color: #FFD369;
+}*/
+
+nav {
+    text-align: right;
+    padding: 15px;
+    margin-right: 50px;
+}
+  
+.nav-link {
+    text-decoration: none;
+    padding: 20px;
+    color:#66BFBF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.abtme {
+    margin: 50px 100px 0 250px;
+    width: 50%;
+}
+
+h1 {
+    color: #11999E;
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+    text-align: center;
+}
+
+SLider 
+.slideshow-container {
+    max-width: 100px;
+    position:relative;
+    margin:auto;
+    height: 100px;
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display:inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+.hobbies {
+    width: 50%;
+    margin: 80px 100px 0 250px;
+}
+
+.emoji1 {
+    font-size: 50px;
+}
+h2 {
+    margin: 0;
+    color: #11999E;
+    text-align: center;
+    padding-top: 100px;
+    text-size-adjust: 100px;
+}
+
+.abtme {
+    margin: 50px 100px 0 250px;
+    width: 50%;
+}
+
+img {
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+    
+}
+
+h3 {
+    color: #11999E;
+    align-content: center ;
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+
+  .courses {
+    margin: 0;
+    color: #11999E;
+    text-align: center;
+    padding-top: 30px;
+    text-size-adjust: 100%;
+  }
+
+.contact {
+    background-color: #11999E;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+    margin: 50px 0 50px 600px;
+    box-sizing: border-box;
+}
+
+.contact-me {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.contact:hover {
+    background-color: #66BFBF;
+}
+
+.submit {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #11999E;
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.reset {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #11999E;
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+option {
+    font-family: 'Outfit', sans-serif;
+}
+
+.reg {
+    font-size: 20px;
+}
+
+.box {
+    padding: 5px 10px;
+}
+
+table {
+    margin: 50px 0 10px 250px;
+}
+
+.lock {
+    margin: 100px 0 10px 250px;
+}
+
+Reference
+
+.main {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    align-content: center;
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+  }
+
+  .rightcolumn {
+    float: left;
+    width: 90%;
+    padding-left: 20px;
+  }
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 90%;
+    padding: 20px;
+    align-content: center;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  Gallery
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

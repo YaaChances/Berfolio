@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="navbar">
+            <header class="header">
+            <a class="header__logo">ber<span>n</span>ice</a>
+            <nav>
+                <a class="nav-link" href="home.html">Home</a>
+                <a class="nav-link" href="aboutme.html">About-Me</a>
+                <a class="nav-link" href="reference.html">Reference</a>
+                <a class="nav-link" href="photogallery.html">Photo-Gallery</a>
+                <a class="nav-link" href="documentspage.html">Documented-Page</a>
+                <a class="nav-link" href="contactme.html">Contact-Me</a>
+            </nav>
+
+            <h1 class="bernice"><span class="hide-small">I'm</span> BERNICE SARPONMAAH BOAKYE.</h1>
+            <p>Computer Science Student.</p>
+        </header>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/bern2.jpeg" style="width:50%" height="20%" >
+              <div class="text">Community-Work</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/bern3.jpeg" style="width:50%" height="20%">
+              <div class="text">At-Work</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/bern1.jpeg" style="width:50%" height="20%">
+              <div class="text">At-School</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 5000); // Change image every 5 seconds
+              }
+            </script>
+        <article>
+            <br><br><br>
+            <h2>
+                Sarponmaah Boakye.
+            </h2>
+            <p class="emoji1">
+                <span>
+                &#128075;
+                </span>
+            </p>
+            <p>
+               Hi, I'm Bernice. <br>
+               I'm a FrontEnd Developer,<br>
+               from OHLG, Ghana.
+               <br>
+               <a href="aboutme.html">Read-More!</a>
+            </p>
+        </article>  
+
+        <div class="abtme">
+            <img src="images/bern1.jpeg" alt="Bernice">
+            <h3>COURSES PURSING</h3>
+            <P>I am a Frontend Developer and a Backend Developer, I am Currently a PHP/MYSQL student, I love listening to music.</P>
+            <p class="courses">
+                <span>
+                   <b> Computer Science Students
+                    </b>
+                <br>
+                    <b>
+                        Majoring In...........
+                    </b>    
+                <ul>
+                    <centre>
+                    <li>
+                        Advanced Web
+                    </li>
+                    <li>
+                        Mobile Development
+                    </li>
+                    <li>
+                        Net Framework
+                    </li>
+                    <li>
+                        Python
+                    </li>
+                    </centre>
+                </ul>
+                </span>
+            </p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <p>
+                CEO of <a href="evansdev.com">evansdev</a> 
+                <br>
+                She's one of the best when it comes to FrontEnd Dev.
+                <hr>
+            </p>
+            <p>
+                <a href="Kwakye-Efram">Blockchain Guru</a> / Kwakye-Efram<br>
+                Bernice is a goal getter and her passion in the IT field is going to upen up amazing doors in  the future.
+            </p>
+            <p>
+                <a href="communitydevsgh.com">COMMUNITY DEVELOPERs GHANA</a>
+                <br>
+                Her ethics and nature to give back to society is amazing and inspiring for all to learn.
+                <br>
+                    Kiddos Bernice / AKA Berrrrrrrrnice
+            </p>
+        </div>
+        </div>   
+        
+        <footer>
+            <p>Find me on social media.</p>
+          <p span="centre">
+          <ul>
+            <i><a href="instagram.com">Bernice</a></i>
+            <br>
+            <i><a href="facebook.com">Sarponmaah</a></i>
+            <br>
+            <i><a href="twitter.com">BerSarp</a></i>
+          </ul>
+          </span></p>
+        
+            <p>Powered by <a href="photogallery.html" target="_blank">Sarponmaah</a></p>
+          </footer>
+</body>
+</html>
